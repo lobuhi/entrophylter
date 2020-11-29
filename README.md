@@ -1,5 +1,5 @@
 # entrophylter
-Take the crunch output and filter results for its entropy.
+Take the crunch output and filter results for its entropy, generate custom wordlist based on entropy and discard garbage.
 
 ***Requirements:***
 - crunch
