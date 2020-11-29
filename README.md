@@ -12,6 +12,9 @@ git clone https://github.com/lobuhi/entrophylter.git
 cd entrophylter
 wget https://raw.githubusercontent.com/ekg/entropy/master/entropy.py
 sudo apt install bc (or yum install bc)
+sudo apt install crunch (or yum install bc)
+sudo apt install python2 (or yum install bc)
+chmod u+x entrophylter.sh
 ```
 ***Usage:***
 ```
