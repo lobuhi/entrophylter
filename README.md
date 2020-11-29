@@ -4,7 +4,7 @@ Take the crunch output and filter results for its entropy, generate custom wordl
 ***Requirements:***
 - crunch
 - bc
-- https://github.com/ekg/entropy
+- https://raw.githubusercontent.com/ekg/entropy/master/entropy.py
 
 ***Usage:***
 ```
