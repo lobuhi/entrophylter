@@ -6,6 +6,13 @@ Take the crunch output and filter results for its entropy, generate custom wordl
 - bc
 - https://raw.githubusercontent.com/ekg/entropy/master/entropy.py
 
+***Installation:***
+```
+git clone https://github.com/lobuhi/entrophylter.git
+cd entrophylter
+wget https://raw.githubusercontent.com/ekg/entropy/master/entropy.py
+sudo apt install bc (or yum install bc)
+```
 ***Usage:***
 ```
 crunch [min] [max] [characters set] | ./entropy.sh [-l|-g] [ENTROPY]
