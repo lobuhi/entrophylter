@@ -24,3 +24,4 @@ If you want to save the output:
 ```
 crunch 16 16 QWERTYUIOPASDFGHJKLZXCVBNM1234567890 | ./entropy.sh -g 3 > output.txt
 ```
+[May I have a coffee, please? ^_^](https://www.buymeacoffee.com/lobuhi)
