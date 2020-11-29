@@ -25,10 +25,10 @@ OPTIONS:
 
 Wordlist with 16 characters length (uppercase+numbers) and entropy equal or greater than 3:
 ```
-crunch 16 16 QWERTYUIOPASDFGHJKLZXCVBNM1234567890 | ./entropy.sh -g 3
+crunch 16 16 QWERTYUIOPASDFGHJKLZXCVBNM1234567890 | ./entrophylter.sh -g 3
 ```
 If you want to save the output:
 ```
-crunch 16 16 QWERTYUIOPASDFGHJKLZXCVBNM1234567890 | ./entropy.sh -g 3 > output.txt
+crunch 16 16 QWERTYUIOPASDFGHJKLZXCVBNM1234567890 | ./entrophylter.sh -g 3 > output.txt
 ```
 [May I have a coffee, please? ^_^](https://www.buymeacoffee.com/lobuhi)
