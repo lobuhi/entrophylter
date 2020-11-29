@@ -20,3 +20,7 @@ Wordlist with 16 characters length (uppercase+numbers) and entropy equal or grea
 ```
 crunch 16 16 QWERTYUIOPASDFGHJKLZXCVBNM1234567890 | ./entropy.sh -g 3
 ```
+If you want to save the output:
+```
+crunch 16 16 QWERTYUIOPASDFGHJKLZXCVBNM1234567890 | ./entropy.sh -g 3 > output.txt
+```
