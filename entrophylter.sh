@@ -10,7 +10,7 @@ if [ $# -lt 1 ];then
 fi
 
 while read line; do 
-	ENTROPY=$(python entropy.py $line)
+	ENTROPY=$(python2 entropy.py $line)
 	if [[ $1 == '-g' ]];then
 		if [[ $(echo "$ENTROPY >= $2" | bc -l) -eq 1 ]];then
 			echo $line
